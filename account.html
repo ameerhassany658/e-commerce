@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Page</title>
+    <link rel="icon" href="img/favicon2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <span ><a href="index.html"><i class="fa-solid fa-house rgicon"></i></a> > </span>
+    <div class="account-container">
+        <div class="profile-section">
+            <div class="image-container">
+                <img id="profileImage" src="default-avatar.png" alt="Profile Picture">
+                <div class="image-upload">
+                    <label for="imageInput" class="change-photo">Change Photo</label>
+                    <input type="file" id="imageInput" accept="image/*" hidden>
+                </div>
+            </div>
+            
+            <div class="user-info">
+                <h2>Account Information</h2>
+                <div class="info-item">
+                    <label>Name:</label>
+                    <span id="userName"></span>
+                </div>
+                <div class="info-item">
+                    <label>Email:</label>
+                    <span id="userEmail"></span>
+                </div>
+                <div class="info-item">
+                    <label>Phone:</label>
+                    <span id="userPhone"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/account.js"></script>
+</body>
+</html>

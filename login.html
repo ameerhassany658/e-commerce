@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   <style>
+     .loginheader{
+        height: 50px;
+        background-color: #FFD000;
+        color: white;
+     
+    }
+    .loginforgot a{
+      text-decoration: none;
+      color: rgb(53, 51, 51);
+    }
+    .loginsocial h4{
+      color: rgb(71, 69, 69);
+    }
+    .loginsocial button a i{
+color: white;
+    }
+    .loginforgot{
+      padding-top: 20px;
+    }
+    .loginforgot a:hover{
+      color: #FFD000;
+    }
+    .Loginbtn button{
+      width: 70px;
+      height: 30px;
+     border: none;
+cursor: pointer;
+background-color: rgb(75, 73, 73);
+color: white;
+margin-top: 20px;
+    }
+    .Loginbtn button:hover{
+      background-color: #FFD000;
+    }
+    .popup{
+      background-color: rgba(0, 0, 0, 0.041);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .popup-content{
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      position: relative;
+    }
+    .loginborder{
+      border-right: 1px solid rgb(167, 163, 163);
+    }
+    .loginreg{
+      color: rgb(71, 69, 69) ;
+    }
+    .Loginbtn1{
+      border: none;
+      background-color: rgb(138, 136, 136);
+      color: white;
+    }
+    .Logininput{
+      background-color: rgb(250, 238, 238);
+      border: 1px solid rgb(216, 211, 211);
+    }
+    .close{
+      position: absolute;
+    top: 4px;
+    right: 12px;
+    height: 26px;
+    width: 20px;
+    cursor: pointer;
+    z-index: 3;
+    color: black;;
+    }
+   </style>
+</head>
+<body>
+      <div class="popup">
+        <div class="popup-content">
+          <div class="loginheader">
+<h3 class="pt-3 ps-2">SIGN IN OR REGISTER</h3>
+<span class="close"><i class="fa-regular fa-circle-xmark"></i></span>
+</div>
+        <div class="row pt-2">
+            <div class="col-lg-6 loginborder">
+                  <div class="input-group mb-3">
+                    <button class="btn btn-outline-secondary Loginbtn1" type="button" id="button-addon1"><i class="fa-regular fa-user"></i></button>
+                    <input type="email" class="form-control Logininput" id="email" placeholder="E-mail Address" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <button class="btn btn-outline-secondary Loginbtn1" type="button" id="button-addon1"><i class="fa-solid fa-key"></i></button>
+                    <input type="password" class="form-control Logininput" placeholder="password" id="password" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+                  <div class="loginsocial">
+                  <h4>Login with your social account</h4>
+                 <button style=" background-color: rgb(207, 12, 12); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-google"></i></a></button>
+                 <button style="background-color: rgb(7, 24, 119); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+                 <button style="background-color: rgb(4, 100, 189); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+                 <button style="background-color: rgb(70, 72, 235); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></button>
+                </div>
+                <div class="loginforgot">
+                  <a href="#">Forgot Your Password?</a>
+                </div>
+                <div class="Loginbtn">
+                  <button onclick="savedata()" id="savedate">LOGIN</button>
+                </div>
+            </div>
+            <div class="col-lg-6 loginreg">
+              <h3>NEW HERE?</h3>
+              <P>Registeration is free and easy!</P>
+              <ul>
+                <li>Faster checkout</li>
+                <li>Save multiple shipping addresses</li>
+                <li>View and track orders and more</li>
+              </ul>
+              <div class="Loginbtn">
+                <button style="width: 200PX;">CREATE AN ACCOUNT</button>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ <script>
+  document.querySelector(".close").addEventListener("click" , function(){
+    document.querySelector(".popup").style.display ="none";
+  })
+  document.querySelector(".popup").addEventListener("click" , function(e){
+    if(e.target==this){
+      document.querySelector(".popup").style.display ="none";
+    }
+  })
+  function savedata() {
+        let email, password;
+        email = document.getElementById("email").value;
+        password = document.getElementById("password").value;
+        let users_arr = new Array();
+        users_arr = JSON.parse(localStorage.getItem("users"))
+          ? JSON.parse(localStorage.getItem("users"))
+          : [];
+          if(users_arr.some((v)=>{
+            return v.email==email && v.password==password
+          })){
+            alert("Login sucsses")
+            let currentUser=users_arr.filter((v)=>{
+              return v.email==email&&v.password==password
+
+            })[0]
+            localStorage.setItem("name",currentUser.name);
+            localStorage.setItem("email",currentUser.email);
+            window.location.href=""
+          }else{
+            alert("Login Fail")
+          }
+      }
+ </script>
+</body>
+</html>

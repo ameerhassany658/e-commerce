@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eMarket - The eCommerce & Multi-purpose MarketPlace Opencart 3 Theme (Mobile Layouts Included)</title>
+    <link rel="icon" href="img/favicon2.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+          <!-- start nav section -->
+          <div class="navv ">
+            <div class="container">
+               <div class="row pt-5 gap-3" >
+       <div class="col-2  ">
+       <img src="img/logo25.png" alt="">
+       </div>
+       <div class="col-2  canceleeed">
+         <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+       <div class="col-7  canceleed">
+         <div class="input-group mb-3">
+           <button class="border border-0">
+       
+             <select class="form-select  " aria-label="Default select example">
+               <option selected>All Category</option>
+               <option value="1">Accessorise</option>
+               <option value="2">Auto part</option>
+               <option value="3">-Decor</option>
+               <option value="3">-Enging</option>
+               <option value="3">-Funnel</option>
+               <option value="3">-Furniture</option>
+               <option value="3">-Theid cupensg</option>
+               <option value="3">-Wheel</option>
+               <option value="3">Auto parts</option>
+               <option value="3">-Accessories</option>
+               <option value="3">-Body Parts</option>
+               <option value="3">-Electronics</option>
+               <option value="3">-Engine & Drivetrain</option>
+               <option value="3">-Lightning</option>
+               <option value="3">-Performance</option>
+               <option value="3">-Repair Parts</option>
+               <option value="3">-Suspensions</option>
+             </select>
+           </button>
+               <input type="search" class="form-control" placeholder="search" aria-label="search" aria-describedby="button-addon2">
+               <button class=" btn btn-outline-secondary  bg-warning" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass "></i></button>
+             </div>
+       </div>
+       <div class="col-2 mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light  cardfather">
+            <div class="container">
+                <div class="dropdown ms-auto">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge bg-danger" id="cartCount">0</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-start cart-dropdown">
+                        <h6>Shopping Cart</h6>
+                        <div id="cartItems"></div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <strong>Total:</strong>
+                            <span id="cartTotal">0 $</span>
+                        </div>
+                        <button class="btn btn-success w-100 mt-2" onclick="window.location.href='checkout.html'">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+       </div>
+               </div>
+               <div class="row " >
+                 <div class="col-2 pt-2 ">
+                         <select class="form-select  bg-warning border-none" aria-label="Default select example">
+                           <option selected>All Category</option>
+                           <option value="1">Accessorise</option>
+                           <option value="2">Auto part</option>
+                           <option value="3">-Decor</option>
+                           <option value="3">-Enging</option>
+                           <option value="3">-Funnel</option>
+                           <option value="3">-Furniture</option>
+                           <option value="3">-Theid cupensg</option>
+                           <option value="3">-Wheel</option>
+                           <option value="3">Auto parts</option>
+                           <option value="3">-Accessories</option>
+                           <option value="3">-Body Parts</option>
+                           <option value="3">-Electronics</option>
+                           <option value="3">-Engine & Drivetrain</option>
+                           <option value="3">-Lightning</option>
+                           <option value="3">-Performance</option>
+                           <option value="3">-Repair Parts</option>
+                           <option value="3">-Suspensions</option>
+                         </select>
+                 </div>
+                   <div class="col-8 ">
+                    <nav class="navbar navbar-expand-lg">
+                      <div class="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="fa-solid fa-list list"></span>
+                        </button>
+                        <div class="collapse navbar-collapse  " id="navbarNav">
+                          <ul class="navbar-nav ">
+                            <li class="nav-item">
+                              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="shop.html">shop</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="contact us.html">contact us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="about.html">about us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="register.html">register</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="#" id="loginButton"><i class="fa-solid fa-right-to-bracket"></i></a>
+                            </li>
+                            
+                          </ul>
+                        </div>
+                      </nav>
+                    </div>
+                         <div class="col-2  ">
+                           <div class="canceled">
+       
+                             <button type="button" class="btn btn-warning">SALE BACK FRIDAY!</button>
+                           </div>
+                           </div>
+                       </div>
+               </div>
+            </div>
+           </div>
+       
+       
+           <!-- end nav section -->
+  <!-- start section 1 -->
+    <div class="container pt-2">
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <ol class="carousel-indicators ">
+
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+        </ol>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/item-1.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/item-2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/item-3.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <!-- end section 1 -->
+<!-- start section 2 -->
+<div class="custom-slider-container bg-white p-4 rounded shadow container">
+  <div class="swiper custom-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide text-center">
+        <img src="img/cate1.webp" alt="Smartphone">
+        <p class="fw-bold">Smartphone & Tablets</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate2.webp" alt="Laptop">
+        <p class="fw-bold">Laptop</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate3.webp" alt="Headphones">
+        <p class="fw-bold">Headphones</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate4.webp" alt="Electronics">
+        <p class="fw-bold">Electronics</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate5.webp" alt="Game Consoles">
+        <p class="fw-bold">Game & Consoles</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate6.webp" alt="Washing Machine">
+        <p class="fw-bold">Washing Machine</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate7.webp" alt="Microwave">
+        <p class="fw-bold">Microwave</p>
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/cate8.webp" alt="Refrigerator">
+        <p class="fw-bold">Refrigerator</p>
+      </div>
+    </div>
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<!-- end section 2 -->
+<!-- start section 3 -->
+<div class="container mt-5 bg-light rounded-5 ">
+  <div class="row pt-3  pb-4">
+    <div class="col-lg-3 mt-4">
+      <div class="cardd1 bg-warning rounded-2" data-animation="fadeInLeft" data-delay="0.8s" id="countdown">
+        <div class="timer">
+          <div class="text bg-dark text-secondary rounded-2  p-2 pb-4">
+            <a href="#" class="text-decoration-none text-secondary">Special offers
+              up to <span style="color: yellow;font-size: xx-large;" class="text-decoration-none">50%</span> off</a>
+          </div>
+        </div>  
+        <div class="card_body ">
+                <h6 class="card_title pt-3">
+                  Hurry Up! Offer ends in:
+                </h6>
+                <div class="countdown_section">
+                    <div id="days" class="value">00</div>
+                    <div class="countdown_label">DAYS</div>
+                </div>
+                <div class="countdown_section">
+                    <div id="hours" class="value">00</div>
+                    <div class="countdown_label">HOURS</div>
+                </div>
+                <div class="countdown_section">
+                    <div id="minutes" class="value">00</div>
+                    <div class="countdown_label">MINUTES</div>
+                </div>
+                <div class="countdown_section">
+                    <div id="seconds" class="value">00</div>
+                    <div class="countdown_label">SECONDS</div>
+                </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-9 mt-4">
+      <div  class="swiper custom-slider212">
+        <div class="swiper-wrapper">
+        
+            
+              <div class="cardd swiper-slide">
+                <div class="img-wrapper">
+                  <img src="img/07-300x300.webp">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Wenim officia dochucor</h5>
+                  <img src="img/Capture.PNG" style ="width: 60px;height: auto;">
+                  <h2 style="color: brown;">$20.00 <span class="text-decoration-line">$40.00</span></h2>
+                  <p class="card-text">available:<span style="color: brown;">3200</span> </p><hr class="border-radius border-secondary border-5">
+                  <a href="#" class="btn btn-light btn-outline-warning text-dark border-light">Add To Card</a>
+                  <a href="#" ><i class="fa-regular fa-heart btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                  <a href="#" ><i class="fa-solid fa-arrows-rotate btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                </div>
+              </div>
+            
+            
+              <div class="cardd swiper-slide">
+                <div class="img-wrapper">
+                  <img src="img/6-300x300.webp">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Beefribs tenderloin</h5>
+                  <img src="img/Capture.PNG" style ="width: 75px;height: auto;">
+                  <h2 style="color: brown;">$30.00 <span class="text-decoration-line">$90.00</span></h2>
+                  <p class="card-text">available:<span style="color: brown;">4200</span> </p><hr class="border-radius border-secondary border-5">
+                  <a href="#" class="btn btn-light btn-outline-warning text-dark border-light">Add to Card</a>
+                  <a href="#" ><i class="fa-regular fa-heart btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                  <a href="#" ><i class="fa-solid fa-arrows-rotate btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                </div>
+             </div>
+            
+            <div class="cardd swiper-slide">
+              <div class="img-wrapper">
+                <img src="img/5-300x300.webp">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Balltip nullaelit</h5>
+                <img src="img/Capture.PNG" style ="width: 75px;height: auto;">
+                <h2 style="color: brown;">$70.00 <span class="text-decoration-line">$80.00</span></h2>
+                <p class="card-text">available:<span style="color: brown;">3300</span> </p><hr class="border-radius border-secondary border-5">
+                <a href="#" class="btn btn-light btn-outline-warning text-dark border-light">Add to Card</a>
+                <a href="#" ><i class="fa-regular fa-heart btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                <a href="#" ><i class="fa-solid fa-arrows-rotate btn btn-light btn-outline-warning text-dark border-light"></i></a>
+              </div>
+            </div>
+          
+          
+            <div class="cardd swiper-slide">
+              <div class="img-wrapper">
+                <img src="img/4-300x300.webp">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Bacon tenderloin</h5>
+                <img src="img/Capture.PNG" style ="width: 75px;height: auto;">
+                <h2 style="color: brown;">$90.00<span class="text-decoration-line">$100.00</span></h2>
+                <p class="card-text">available:<span style="color: brown;">3100</span> </p><hr class="border-radius border-secondary border-5">
+                <a href="#" class="btn btn-light btn-outline-warning text-dark border-light">Add to Card</a>
+                <a href="#" ><i class="fa-regular fa-heart btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                <a href="#" ><i class="fa-solid fa-arrows-rotate btn btn-light btn-outline-warning text-dark border-light"></i></a>
+              </div>
+            </div>
+          
+          
+            <div class="cardd swiper-slide">
+              <div class="img-wrapper">
+                <img src="img/2-300x300.webp">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Andouille prosciutto</h5>
+                <img src="img/Capture.PNG" style ="width: 75px;height: auto;">
+                <h2 style="color: brown;">$30.00<span class="text-decoration-line">$90.00</span></h2>
+                <p class="card-text">available:<span style="color: brown;"> 3200</span></p><hr class="border-radius border-secondary border-5">
+                <a href="#" class="btn btn-light btn-outline-warning text-dark border-light">Add to Card</a>
+                <a href="#" ><i class="fa-regular fa-heart btn btn-light btn-outline-warning text-dark border-light"></i></a>
+                <a href="#" ><i class="fa-solid fa-arrows-rotate btn btn-light btn-outline-warning text-dark border-light"></i></a>
+              </div>
+            </div>
+         
+        </div>  
+        <button class="swiper-button-prev212" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span aria-hidden="true"> <i class="fa-solid fa-chevron-left"></i></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="swiper-button-next212" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span  aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- end section 3 -->
+<!-- start section 4 -->
+<div class="container-fluid banner d-flex align-items-center justify-content-between p-2">
+  <div class="content d-flex flex-grow-1 align-items-center p-2">
+      <span class="text-warning fw-bold me-3">Welcome to eMarket Store!</span>
+      <span>Wrap new offers / gift every single day on Weekends >>>> New Coupon code: T0mly81x9z0334c1</span>
+  </div>
+  <button class="btn btn-custom ms-3">EXPLORE NOW</button>
+</div>
+<!-- end section 4 -->
+ <!-- start section 5 -->
+<div class="mother mmnn">
+  <div class="container module">
+      <div class="row">
+          <div class="col-md-8">
+              <div id="productCarousel1" class="carousel slide" data-bs-ride="false">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="img/07.webp" class="d-block w-100 product-image" alt="Product 1">
+                          <div class="textm">
+                              <p>Wenim officia dochuc</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$30.00 </span><del>$32.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/2.webp" class="d-block w-100 product-image" alt="Product 2">
+                          <div class="textm">
+                              <p>beefribs tenderlion</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$90.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/4.webp" class="d-block w-100 product-image" alt="Product 3">
+                          <div class="textm">
+                              <p>Balltip nullaelit</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$65.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/6.webp" class="d-block w-100 product-image" alt="Product 4">
+                          <div class="textm">
+                              <p>Andouille prosciutto</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$79.00</del></p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  
+              </div>
+          </div>
+          <div class="col-md-4 ">
+              <div class="d-flex flex-column">
+                  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-chevron-up"></i></span>
+                      <span class="visually-hidden"></span>
+                  </button> -->
+                  <img src="img/07.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(0, 'productCarousel1')" alt="Thumbnail 1">
+                  <img src="img/2.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(1, 'productCarousel1')" alt="Thumbnail 2">
+                  <img src="img/4.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(2, 'productCarousel1')" alt="Thumbnail 3">
+                  <img src="img/6.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(3, 'productCarousel1')" alt="Thumbnail 4">
+                  <!-- <button class="carousel-control-next" type="button" data-bs-target="#productCarousel1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">down</span>
+                  </button> -->
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container module">
+      <div class="row">
+          <div class="col-md-8">
+              <div id="productCarousel2" class="carousel slide" data-bs-ride="false">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="img/07.webp" class="d-block w-100 product-image" alt="Product 1">
+                          <div class="textm">
+                              <p>Wenim officia dochuc</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$30.00 </span><del>$32.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/2.webp" class="d-block w-100 product-image" alt="Product 2">
+                          <div class="textm">
+                              <p>Beefribs tenderlion</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$90.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/4.webp" class="d-block w-100 product-image" alt="Product 3">
+                          <div class="textm">
+                              <p>Balltip nullaelit</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$65.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/6.webp" class="d-block w-100 product-image" alt="Product 4">
+                          <div class="textm">
+                              <p>Andouille prosciutto</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$79.00</del></p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button> -->
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="d-flex flex-column">
+                  <img src="img/07.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(0, 'productCarousel2')" alt="Thumbnail 1">
+                  <img src="img/2.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(1, 'productCarousel2')" alt="Thumbnail 2">
+                  <img src="img/4.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(2, 'productCarousel2')" alt="Thumbnail 3">
+                  <img src="img/6.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(3, 'productCarousel2')" alt="Thumbnail 4">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container module">
+      <div class="row">
+          <div class="col-md-8">
+              <div id="productCarousel3" class="carousel slide" data-bs-ride="false">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="img/07.webp" class="d-block w-100 product-image" alt="Product 1">
+                          <div class="textm">
+                              <p>Wenim officia dochuc</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$30.00 </span><del>$32.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/2.webp" class="d-block w-100 product-image" alt="Product 2">
+                          <div class="textm">
+                              <p>Beefribs tenderlion</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$90.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/4.webp" class="d-block w-100 product-image" alt="Product 3">
+                          <div class="textm">
+                              <p>Balltip nullaelit</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$65.00</del></p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/6.webp" class="d-block w-100 product-image" alt="Product 4">
+                          <div class="textm">
+                              <p>Andouille prosciutto</p>
+                              <p>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-regular fa-star text-warning"></i>
+                              </p>
+                              <p><span class="text-danger">$60.00 </span><del>$79.00</del></p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button> -->
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="d-flex flex-column">
+                  <img src="img/07.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(0, 'productCarousel3')" alt="Thumbnail 1">
+                  <img src="img/2.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(1, 'productCarousel3')" alt="Thumbnail 2">
+                  <img src="img/4.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(2, 'productCarousel3')" alt="Thumbnail 3">
+                  <img src="img/6.webp" class="img-thumbnail mb-2 thumbnail" onclick="changeSlide(3, 'productCarousel3')" alt="Thumbnail 4">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- end section 5 -->
+ <!-- start section 6 -->
+ <div class="container">
+  <div class="row  pt-3 pb-2">
+      <div class="col-4">
+        <a href="#" class="carh3"><h3>Smartphone & Tablet</h3></a>
+      </div>
+      <div class="col-8">
+          <ul class="nav justify-content-end">
+              <li class="nav-item ">
+                <a class="nav-link active text-dark card1 active" aria-current="page" href="#">Cellphone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark card1" href="#">Iphone</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark card1" href="#">Mobile Accessorise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark card1" href="#">Samsung</a>
+              </li>
+              <li><button class="carnext swiper-button-next1"><i class="fa-solid fa-chevron-left"></i></button></li>
+              <li><button class="carprev swiper-button-prev1"><i class="fa-solid fa-chevron-right"></i></button></li>
+            </ul>
+      </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row border-top pt-2 swiper custom-slider1">
+      
+      <div class="col-8 d-flex swiper-wrapper">
+          <div class="card swiper-slide" >
+             <a href="#" class="carimg">  <img src="img/01-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Dicanha capicola salami</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$80.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+          <div class="card swiper-slide" >
+              <a href="#" class="carimg"><img src="img/02-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Jerky pork bellygrond</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$76.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+           <div class="card swiper-slide" >
+              <a href="#" class="carimg"><img src="img/03-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Pork sausage rump</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$90.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+          <div class="card swiper-slide" >
+              <a href="#" class="carimg"><img src="img/04-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Leberkas sausage pance</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$56.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+          <div class="card swiper-slide" >
+              <a href="#" class="carimg"><img src="img/05.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Nostrud pastrami tailk</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$65.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+          <div class="card swiper-slide" >
+              <a href="#" class="carimg"><img src="img/07.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Dicanha capiola salami</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$69.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+          <div class="card swiper-slide" >
+              <a href="#" class="carimg"><img src="img/08.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+              <div class="card-body">
+                <a href="#" class="carlink">Puis picanha salami</a>
+               <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+               <h4>$43.00</h4>
+                <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+                <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+              </div>
+            </div>
+      </div> 
+  </div>
+</div>
+<!-- end secone -->
+<!-- start sectowe -->
+<div class="container mt-5 mb-2">
+<div class="row ">
+  <div class="col-4">
+      <a href="#" class="carh3"><h3>Computer & Laptob</h3></a>
+  </div>
+  <div class="col-8">
+      <ul class="nav justify-content-end">
+          <li class="nav-item ">
+            <a class="nav-link active text-dark card1" aria-current="page" href="#">Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark card1" href="#">Electroincs</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-dark card1" href="#">Game & Consoles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark card1" href="#">Headphones</a>
+          </li>
+          <li><button class="carnext swiper-button-next12"><i class="fa-solid fa-chevron-left"></i></button></li>
+          <li><button class="carprev swiper-button-prev12"><i class="fa-solid fa-chevron-right"></i></button></li>
+        </ul>
+  </div>
+</div>
+</div>
+<div class="container">
+<div class="row  border-top pt-2 swiper custom-slider12">
+  
+  <div class="col-8 d-flex swiper-wrapper">
+      <div class="card swiper-slide" >
+        <a href="#" class="carimg">  <img src="img/2-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">Zorned beef alcatra</a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4>$66.00</h4>
+            <span><a href="#" class="btn carbtn1 ">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+      <div class="card swiper-slide " >
+          <a href="#" class="carimg"><img src="img/3-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">soident prosciutto dolo </a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4>$32.00</h4>
+            <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+      <div class="card swiper-slide" >
+          <a href="#" class="carimg"><img src="img/4-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">Suisesse laborum pork</a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4>$89.00</h4>
+            <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+      <div class="card swiper-slide" >
+          <a href="#" class="carimg"><img src="img/05-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">Gommodo veniam nulla</a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4>$82.00</h4>
+            <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+      <div class="card swiper-slide" >
+          <a href="#" class="carimg"><img src="img/06-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">Uoin voluptate pastram</a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4>$43.00</h4>
+            <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+      <div class="card swiper-slide" >
+          <a href="#" class="carimg"><img src="img/07-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">Wenim officia dochuc</a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4 style="color: red;">$30.00</h4><span><del>$32.00</del></span>
+            <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+      <div class="card swiper-slide" >
+          <a href="#" class="carimg"><img src="img/1-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+          <div class="card-body">
+            <a href="#" class="carlink">Dequat quis venison</a>
+           <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+           <h4>$63.00</h4>
+            <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+            <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+<!--end sectowe -->
+<!-- start sectree -->
+<div class="container mt-5 mb-2">
+<div class="row ">
+<div class="col-6">
+  <a href="#" class="carh3"><h3>Home&kitchen</h3></a>
+</div>
+<div class="col-6">
+  <ul class="nav  justify-content-end">
+      <li class="nav-item ">
+        <a class="nav-link active text-dark card1" aria-current="page" href="#">Electroincs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark card1" href="#">Houseware</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-dark card1" href="#">Washing Machine</a>
+      </li>
+      <li><button class="carnext swiper-button-next13"><i class="fa-solid fa-chevron-left"></i></button></li>
+      <li><button class="carprev swiper-button-prev13"><i class="fa-solid fa-chevron-right"></i></button></li>
+    </ul>
+</div>
+</div>
+</div>
+<div class="container ">
+<div class="  border-top pt-2 swiper custom-slider13 ">
+
+<div class=" swiper-wrapper">
+
+  <div class="card swiper-slide">
+    <a href="#" class="carimg">  <img src="img/2-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">Zorned beef alcatra</a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4>$66.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+  <div class="card swiper-slide">
+      <a href="#" class="carimg"><img src="img/3-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">soident prosciutto dolo </a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4>$32.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+  <div class="card swiper-slide">
+      <a href="#" class="carimg"><img src="img/8.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">Beniam nulla buffal</a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4>$55.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+  <div class="card swiper-slide">
+      <a href="#" class="carimg"><img src="img/05-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">Gommodo veniam nulla</a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4>$82.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+  <div class="card swiper-slide">
+      <a href="#" class="carimg"><img src="img/06-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">Uoin voluptate pastram</a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4>$43.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+  <div class="card swiper-slide">
+      <a href="#" class="carimg"><img src="img/07-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">Wenim officia dochuc</a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4 >$30.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+  <div class="card swiper-slide">
+      <a href="#" class="carimg"><img src="img/1-270x270.webp" class="card-img-top" alt="..."><button class="careye"><i class="fa-regular fa-eye "></i></button></a>
+      <div class="card-body">
+        <a href="#" class="carlink">Dequat quis venison</a>
+       <p class="caricon"><i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i> <i class="fa-duotone fa-solid fa-star"></i></p>
+       <h4>$63.00</h4>
+        <span><a href="#" class="btn carbtn1">Add to cart</a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-regular fa-heart"></i></a></span>
+        <span><a href="#" class="btn carbtn"><i class="fa-solid fa-arrows-rotate"></i></a></span>
+      </div>
+    </div>
+
+</div>
+</div>
+</div> 
+<!-- end section 6 -->
+<!-- start section 7 -->
+<div class="container mt-3  phototr">
+  <a href="#">
+    <img class="lazyautosizes lazyloaded" data-sizes="auto" src="img/id25-bn.jpg" >
+  </a>
+</div>
+<!-- end section 7 -->
+
+<!-- start section 8 -->
+<div class="slider-container mt-3   bg-light ">
+  <div class="swiper rrr">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide text-center">
+        <img src="img/item-1.jpg" alt="Item 1">
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/item-2.jpg" alt="Item 2">
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/item-3.jpg" alt="Item 3">
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/item-4.jpg" alt="Item 4">
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/item-5.jpg" alt="Item 5">
+      </div>
+      <div class="swiper-slide text-center">
+        <img src="img/item-6.jpg" alt="Item 6">
+      </div>
+    </div>
+     <!-- Navigation buttons -->
+     <div class="swiper-button-next ttt"></div>
+     <div class="swiper-button-prev vvv"></div>
+   </div>
+ </div>
+    <!-- end section 8 -->
+
+    <!-- start section 9 -->
+    <div class="container mt-5">
+      <div class="mod-conten"> 
+       <h2>Latest Blog</h2><hr class="w-25">
+       <div class="row ">
+         <div class="col-lg-2 col-md-12">
+           <img src="img/2-306x204.webp" class="w-100">
+          <div class="d-flex">
+           <h5 class="text-secondary"><i class="fa-regular fa-calendar-days"></i>May 13th, 2021</h5>
+           <h5 class="text-secondary"><i class="fa-solid fa-comments"></i>0 Comment</h5> 
+          </div>
+          <a href="#" class="text-dark text-decoration-none">At vero eos et accusam et justo</a>      
+          <p class="text-secondary">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat n..</p> 
+          <button class="btn btn-light btn-outline-warning text-dark border-light">Read More</button>
+         </div>
+         <div class="col-lg-2 col-md-12">
+           <img src="img/5-306x204.webp" class="w-100">
+           <div class="d-flex">
+             <h5 class="text-secondary"><i class="fa-regular fa-calendar-days"></i>May 13th, 2021</h5>
+             <h5 class="text-secondary"><i class="fa-solid fa-comments"></i>0 Comment</h5>
+           </div>
+           <a href="#" class="text-dark text-decoration-none ">Sed diam nonum nibh euismod</a> 
+           <p class="text-secondary">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat n..</p> 
+           <button class="btn btn-light btn-outline-warning text-dark border-light">Read More</button>
+         </div>
+         <div class="col-lg-2 col-md-12">
+           <img src="img/3-306x204.webp" class="w-100">
+           <div class="d-flex">
+             <h5 class="text-secondary"><i class="fa-regular fa-calendar-days"></i>May 13th, 2021</h5>
+             <h5 class="text-secondary"><i class="fa-solid fa-comments"></i>0 Comment</h5> 
+           </div>
+           <a href="#" class="text-dark text-decoration-none ">Stet clita kasd guber sea takimata</a>
+           <p class="text-secondary">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat n..</p> 
+           <button class="btn btn-light btn-outline-warning text-dark border-light">Read More</button> 
+         </div>
+         <div class="col-lg-2 col-md-12">
+           <img src="img/6-306x204.webp" class="w-100">
+           <div class="d-flex">
+             <h5 class="text-secondary"><i class="fa-regular fa-calendar-days"></i>May 13th, 2021</h5>
+             <h5 class="text-secondary"><i class="fa-solid fa-comments"></i>0 Comment</h5>
+           </div>
+           <a href="#" class="text-dark text-decoration-none ">Stet clita kasd gubergren</a>
+           <p class="text-secondary">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat n..</p>  
+           <button class="btn btn-light btn-outline-warning text-dark border-light">Read More</button>
+         </div>
+         <div class="col-lg-2 col-md-12 ">
+           <img src="img/5-306x204.webp" class="w-100">
+           <div class="d-flex">
+             <h5 class="text-secondary"><i class="fa-regular fa-calendar-days"></i>May 13th, 2021</h5>
+             <h5 class="text-secondary"><i class="fa-solid fa-comments"></i>0 Comment</h5> 
+           </div>
+           <a href="#" class="text-dark text-decoration-none ">Torem ipsum dolor sit amet</a>
+           <p class="text-secondary">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat n..</p>  
+           <button class="btn btn-light btn-outline-warning text-dark border-light">Read More</button>
+         </div>
+         <div class="col-lg-2 col-md-12 ">
+           <img src="img/2-306x204.webp" class="w-100">
+           <div class="d-flex">
+             <h5 class="text-secondary"><i class="fa-regular fa-calendar-days"></i>May 13th, 2021</h5>
+             <h5 class="text-secondary"><i class="fa-solid fa-comments"></i>0 Comment</h5> 
+           </div>
+           <a href="#" class="text-dark text-decoration-none ">Torem ipsum dolor sit amet</a>
+           <p class="text-secondary">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat n..</p>  
+           <button class="btn btn-light btn-outline-warning text-dark border-light">Read More</button>
+         </div>
+       </div>
+      </div>   
+     </div>    
+     <!-- end section 9 -->
+
+<!-- start footer -->
+<div class="team bg-warning mt-3">
+  <div class="container pt-3">
+   <div class=" gap-3 mt-3"> 
+     <ul type="none" class="d-flex flex-wrap ">
+     <li class="t1 col-lg-2 col-md-6 ">
+         <div class="d-flex">
+
+             <div class="img bg-body rounded-circle rounded-circle w-75 h-75 ">
+                 <img src="img/icon-1.png ">
+             </div>
+             <div class="text-center ">
+                 <h5 class="text-dark h6">Free Shipping & Return</h5>
+                 <p class="text-secondary h6">Free shipping on orders over $49</p>
+             </div>  
+         </div>
+     </li>
+     <li class="t2 col-lg-2 col-md-6">
+       <div class="d-flex">
+         <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-2.png"></div>
+         <div class="text-center ">
+             <h5 class="text-dark">Money Guarantee</h5>
+             <p class="text-secondary">30 days money back guarantee</p>
+         </div>
+       </div>  
+     </li>
+     <li class="t3 col-lg-2 col-md-6">
+       <div class="d-flex">
+         <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-3.png"></div>
+         <div class="text-center">
+             <h5 class="text-dark ">Online Support</h5>
+             <p class="text-secondary">We support online 24/24 on day</p>
+         </div>
+       </div>  
+     </li>
+     <li class="t4 col-lg-2 col-md-6">
+      <div class="d-flex">
+         <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-4.png"></div>
+         <div class="text-center">
+             <h5 class="text-dark ">Gift Promotion</h5>
+             <p class="text-secondary">30 days money back guarantee</p>
+         </div>
+      </div>   
+     </li>
+     <li class="t5 col-lg-2 col-md-6">
+       <div class="d-flex"> 
+         <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-5.png"></div>
+         <div class="text-center">
+             <h5 class="text-dark ">Payment Method</h5>
+             <p class="text-secondary"> We support online 24/24 on day</p>
+         </div>
+       </div>
+     </li>
+     </ul>
+   </div>  
+  </div>
+ </div>
+</div>
+ <div class="e  pt-5">
+   <div class="container ">
+    <div class="row gap-3"> 
+     <div class="e1 col-lg-3 col-md-6">
+         <ul type="none">
+             <h4>Contact Us</h4>
+             <li><i class="fa-solid fa-location-dot p-3"></i>5611 Wellington Road, Suite 115, Gainesville,VA 20155</li>
+             <li><i class="fa-solid fa-phone p-3"></i>888 9344 6000 - 888 1234 6789</li>
+             <li><i class="fa-solid fa-envelope p-3"></i>contact@smartaddons.com</li>
+             <li><i class="fa-regular fa-clock p-3"></i>7 Days a week from 10-00 am to 6-00 pm</li>
+         </ul>
+     </div>
+     <div class="e2 col-lg-2 col-md-6">
+         <ul type="none">
+             <h4>Infomation</h4>
+             <li><a href="">Affiliates</a></li>
+             <li><a href="">Brands</a></li>
+             <li><a href="">Gift Certificates</a></li>
+             <li><a href="">Affiliates</a></li>
+             <li><a href="">Specials</a></li>
+             <li><a href="">FAQs</a></li>
+         </ul>
+     </div>
+     <div class="e3 col-lg-2 col-md-6">
+         <ul type="none">
+             <h4>Services</h4>
+             <li><a href="">Gift Certificates</a></li>
+             <li><a href="">Contact Us</a></li>
+             <li><a href="">Returns</a></li>
+             <li><a href="">Support</a></li>
+             <li><a href="">Site Map</a></li>
+             <li><a href="">Customer Service</a></li>
+         </ul>             
+     </div>
+     <div class="e4 col-lg-4 col-md-6">
+         <h4>Top Tags</h4>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Cupim</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Gancetta</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Xumstick</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Neberkas</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">picanha</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Balltip</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">chicken</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Shicken</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Consectetur</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Doggenpuis</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Drumstick</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Gorchetta</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Benderloin</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Corned</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Lankfurter</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Ercitation</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Pibeye</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Falcatra</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Cenison</button>
+         <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Yutculpa</button>
+     </div>
+   </div>                               
+ </div>
+ <div class="bg-light text-dark mt-3 p-4 ">
+     <div class="container  row ">
+         <div class="col-lg-4 col-md-6">
+             <i class="fa-brands fa-facebook-f mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+             <i class="fa-brands fa-twitter mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+             <i class="fa-brands fa-google-plus-g mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+             <i class="fa-brands fa-pinterest-p mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+             <i class="fa-brands fa-instagram mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>                            
+         </div>
+         <div class="col-lg-2 col-md-6">
+             <p>Sign Up For Our Newsletter</p>
+         </div>
+         <div class="input group d-flex w-50 h-50 col-lg-5 col-md-6 col-sm-12">
+          <input class="form-control" type="email" placeholder="Your email address...">
+          <button class="btn btn-warning btn-lg">SUBSCRIBE</button>
+         </div>
+        </div> 
+     </div> 
+ </div>   
+</div>
+<div class="footer p-2">
+ <div class="container d-flex">
+     <div class="row">
+
+         <h6 class="col-lg-6 col-md-6">eMarket &copy 2024<a href=""> SmartAddons.Com</a> Themes Demo Store. All Rights Reserved.</h6>
+         <img src="img/payment25.png" class="col-lg-6 col-md-6">
+     </div>
+ </div>
+</div>
+<!-- end footer -->
+ <!-- start login -->
+
+ <div class="popup" style="display: none;">
+  <div class="popup-content">
+    <div class="loginheader">
+<h3 class="pt-3 ps-2">SIGN IN OR REGISTER</h3>
+<span class="close"><i class="fa-regular fa-circle-xmark"></i></span>
+</div>
+  <div class="row pt-2">
+      <div class="col-lg-6 loginborder">
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary Loginbtn1" type="button" id="button-addon1"><i class="fa-regular fa-user"></i></button>
+              <input type="email" class="form-control Logininput" id="email" placeholder="E-mail Address" aria-label="Example text with button addon" aria-describedby="button-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary Loginbtn1" type="button" id="button-addon1"><i class="fa-solid fa-key"></i></button>
+              <input type="password" class="form-control Logininput" placeholder="password" id="password" aria-label="Example text with button addon" aria-describedby="button-addon1">
+            </div>
+            <div class="loginsocial">
+            <h4>Login with your social account</h4>
+           <button style=" background-color: rgb(207, 12, 12); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-google"></i></a></button>
+           <button style="background-color: rgb(7, 24, 119); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+           <button style="background-color: rgb(4, 100, 189); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+           <button style="background-color: rgb(70, 72, 235); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></button>
+          </div>
+          <div class="loginforgot">
+            <a href="#">Forgot Your Password?</a>
+          </div>
+          <div class="Loginbtn">
+            <button onclick="savedata()" id="savedate">LOGIN</button>
+          </div>
+      </div>
+      <div class="col-lg-6 loginreg">
+        <h3>NEW HERE?</h3>
+        <P>Registeration is free and easy!</P>
+        <ul>
+          <li>Faster checkout</li>
+          <li>Save multiple shipping addresses</li>
+          <li>View and track orders and more</li>
+        </ul>
+        <div class="Loginbtn">
+          <button style="width: 200PX;"><a href="register.html" style="text-decoration: none; color: white; ">CREATE AN ACCOUNT</a></button>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+ <!-- end login -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="js/java.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+          <!-- start nav section -->
+          <div class="navv ">
+            <div class="container">
+               <div class="row pt-5 gap-3" >
+       <div class="col-2  ">
+       <img src="img/logo25.png" alt="">
+       </div>
+       <div class="col-2  canceleeed">
+         <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+       <div class="col-7  canceleed">
+         <div class="input-group mb-3">
+           <button class="border border-0">
+       
+             <select class="form-select  " aria-label="Default select example">
+               <option selected>All Category</option>
+               <option value="1">Accessorise</option>
+               <option value="2">Auto part</option>
+               <option value="3">-Decor</option>
+               <option value="3">-Enging</option>
+               <option value="3">-Funnel</option>
+               <option value="3">-Furniture</option>
+               <option value="3">-Theid cupensg</option>
+               <option value="3">-Wheel</option>
+               <option value="3">Auto parts</option>
+               <option value="3">-Accessories</option>
+               <option value="3">-Body Parts</option>
+               <option value="3">-Electronics</option>
+               <option value="3">-Engine & Drivetrain</option>
+               <option value="3">-Lightning</option>
+               <option value="3">-Performance</option>
+               <option value="3">-Repair Parts</option>
+               <option value="3">-Suspensions</option>
+             </select>
+           </button>
+               <input type="search" class="form-control" placeholder="search" aria-label="search" aria-describedby="button-addon2">
+               <button class=" btn btn-outline-secondary  bg-warning" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass "></i></button>
+             </div>
+       </div>
+       <div class="col-2 mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light  cardfather">
+            <div class="container">
+                <div class="dropdown ms-auto">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge bg-danger" id="cartCount">0</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-start cart-dropdown">
+                        <h6>Shopping Cart</h6>
+                        <div id="cartItems"></div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <strong>Total:</strong>
+                            <span id="cartTotal">0 $</span>
+                        </div>
+                        <button class="btn btn-success w-100 mt-2" onclick="window.location.href='./check out.html'">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+       </div>
+               </div>
+               <div class="row " >
+                 <div class="col-2 pt-2 ">
+                         <select class="form-select  bg-warning border-none" aria-label="Default select example">
+                           <option selected>All Category</option>
+                           <option value="1">Accessorise</option>
+                           <option value="2">Auto part</option>
+                           <option value="3">-Decor</option>
+                           <option value="3">-Enging</option>
+                           <option value="3">-Funnel</option>
+                           <option value="3">-Furniture</option>
+                           <option value="3">-Theid cupensg</option>
+                           <option value="3">-Wheel</option>
+                           <option value="3">Auto parts</option>
+                           <option value="3">-Accessories</option>
+                           <option value="3">-Body Parts</option>
+                           <option value="3">-Electronics</option>
+                           <option value="3">-Engine & Drivetrain</option>
+                           <option value="3">-Lightning</option>
+                           <option value="3">-Performance</option>
+                           <option value="3">-Repair Parts</option>
+                           <option value="3">-Suspensions</option>
+                         </select>
+                 </div>
+                   <div class="col-8 ">
+                    <nav class="navbar navbar-expand-lg">
+                      <div class="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="fa-solid fa-list list"></span>
+                        </button>
+                        <div class="collapse navbar-collapse  " id="navbarNav">
+                          <ul class="navbar-nav ">
+                            <li class="nav-item">
+                              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="shop.html">shop</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="contact us.html">contact us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="about.html">about us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="register.html">register</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="#" id="loginButton"><i class="fa-solid fa-right-to-bracket"></i></a>
+                            </li>
+                            
+                          </ul>
+                        </div>
+                      </nav>
+                    </div>
+                         <div class="col-2  ">
+                           <div class="canceled">
+       
+                             <button type="button" class="btn btn-warning">SALE BACK FRIDAY!</button>
+                           </div>
+                           </div>
+                       </div>
+               </div>
+            </div>
+           </div>
+       
+       
+           <!-- end nav section -->
+    
+    <div class="container my-4 cardfather">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Filters</h5>
+                <div class="mb-3">
+                    <label class="form-label">Category</label>
+                    <select id="categoryFilter" class="form-select">
+                        <option value="all">All</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="home">Home</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Price</label>
+                    <input type="range" id="priceFilter" class="form-range" min="0" max="1000">
+                    <span id="priceValue">0 - 1000 $</span>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="d-flex justify-content-end mb-3">
+                    <button class="btn btn-outline-secondary me-2" id="grid2">2 Columns</button>
+                    <button class="btn btn-outline-secondary me-2" id="grid3">3 Columns</button>
+                    <button class="btn btn-outline-secondary me-2" id="grid4">4 Columns</button>
+                    <button class="btn btn-outline-secondary me-2" id="grid5">5 Columns</button>
+                </div>
+                <div class="row" id="productContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    
+        <!-- start footer -->
+<div class="team bg-warning mt-3">
+    <div class="container pt-3">
+     <div class=" gap-3 mt-3"> 
+       <ul type="none" class="d-flex flex-wrap ">
+       <li class="t1 col-lg-2 col-md-6 ">
+           <div class="d-flex">
+  
+               <div class="img bg-body rounded-circle rounded-circle w-75 h-75 ">
+                   <img src="img/icon-1.png ">
+               </div>
+               <div class="text-center ">
+                   <h5 class="text-dark h6">Free Shipping & Return</h5>
+                   <p class="text-secondary h6">Free shipping on orders over $49</p>
+               </div>  
+           </div>
+       </li>
+       <li class="t2 col-lg-2 col-md-6">
+         <div class="d-flex">
+           <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-2.png"></div>
+           <div class="text-center ">
+               <h5 class="text-dark">Money Guarantee</h5>
+               <p class="text-secondary">30 days money back guarantee</p>
+           </div>
+         </div>  
+       </li>
+       <li class="t3 col-lg-2 col-md-6">
+         <div class="d-flex">
+           <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-3.png"></div>
+           <div class="text-center">
+               <h5 class="text-dark ">Online Support</h5>
+               <p class="text-secondary">We support online 24/24 on day</p>
+           </div>
+         </div>  
+       </li>
+       <li class="t4 col-lg-2 col-md-6">
+        <div class="d-flex">
+           <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-4.png"></div>
+           <div class="text-center">
+               <h5 class="text-dark ">Gift Promotion</h5>
+               <p class="text-secondary">30 days money back guarantee</p>
+           </div>
+        </div>   
+       </li>
+       <li class="t5 col-lg-2 col-md-6">
+         <div class="d-flex"> 
+           <div class="img bg-body rounded-circle rounded-circle w-75 h-75"><img src="img/icon-5.png"></div>
+           <div class="text-center">
+               <h5 class="text-dark ">Payment Method</h5>
+               <p class="text-secondary"> We support online 24/24 on day</p>
+           </div>
+         </div>
+       </li>
+       </ul>
+     </div>  
+    </div>
+   </div>
+  </div>
+   <div class="e  pt-5">
+     <div class="container ">
+      <div class="row gap-3"> 
+       <div class="e1 col-lg-3 col-md-6">
+           <ul type="none">
+               <h4>Contact Us</h4>
+               <li><i class="fa-solid fa-location-dot p-3"></i>5611 Wellington Road, Suite 115, Gainesville,VA 20155</li>
+               <li><i class="fa-solid fa-phone p-3"></i>888 9344 6000 - 888 1234 6789</li>
+               <li><i class="fa-solid fa-envelope p-3"></i>contact@smartaddons.com</li>
+               <li><i class="fa-regular fa-clock p-3"></i>7 Days a week from 10-00 am to 6-00 pm</li>
+           </ul>
+       </div>
+       <div class="e2 col-lg-2 col-md-6">
+           <ul type="none">
+               <h4>Infomation</h4>
+               <li><a href="">Affiliates</a></li>
+               <li><a href="">Brands</a></li>
+               <li><a href="">Gift Certificates</a></li>
+               <li><a href="">Affiliates</a></li>
+               <li><a href="">Specials</a></li>
+               <li><a href="">FAQs</a></li>
+           </ul>
+       </div>
+       <div class="e3 col-lg-2 col-md-6">
+           <ul type="none">
+               <h4>Services</h4>
+               <li><a href="">Gift Certificates</a></li>
+               <li><a href="">Contact Us</a></li>
+               <li><a href="">Returns</a></li>
+               <li><a href="">Support</a></li>
+               <li><a href="">Site Map</a></li>
+               <li><a href="">Customer Service</a></li>
+           </ul>             
+       </div>
+       <div class="e4 col-lg-4 col-md-6">
+           <h4>Top Tags</h4>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Cupim</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Gancetta</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Xumstick</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Neberkas</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">picanha</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Balltip</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">chicken</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Shicken</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Consectetur</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Doggenpuis</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Drumstick</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Gorchetta</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Benderloin</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Corned</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Lankfurter</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Ercitation</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Pibeye</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Falcatra</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Cenison</button>
+           <button type="button" class="btn btn-light btn-outline-warning text-secondary border-light">Yutculpa</button>
+       </div>
+     </div>                               
+   </div>
+   <div class="bg-light text-dark mt-3 p-4 ">
+       <div class="container  row ">
+           <div class="col-lg-4 col-md-6">
+               <i class="fa-brands fa-facebook-f mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+               <i class="fa-brands fa-twitter mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+               <i class="fa-brands fa-google-plus-g mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+               <i class="fa-brands fa-pinterest-p mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>
+               <i class="fa-brands fa-instagram mx-1 shadow p-3 mb-5 bg-body rounded-circle  btn-outline-warning text-dark border-light"></i>                            
+           </div>
+           <div class="col-lg-2 col-md-6">
+               <p>Sign Up For Our Newsletter</p>
+           </div>
+           <div class="input group d-flex w-50 h-50 col-lg-5 col-md-6 col-sm-12">
+            <input class="form-control" type="email" placeholder="Your email address...">
+            <button class="btn btn-warning btn-lg">SUBSCRIBE</button>
+           </div>
+          </div> 
+       </div> 
+   </div>   
+  </div>
+  <div class="footer p-2">
+   <div class="container d-flex">
+       <div class="row">
+  
+           <h6 class="col-lg-6 col-md-6">eMarket &copy 2024<a href=""> SmartAddons.Com</a> Themes Demo Store. All Rights Reserved.</h6>
+           <img src="img/payment25.png" class="col-lg-6 col-md-6">
+       </div>
+   </div>
+  </div>
+
+  <!-- end footer -->
+  <div class="popup" style="display: none;">
+    <div class="popup-content">
+      <div class="loginheader">
+  <h3 class="pt-3 ps-2">SIGN IN OR REGISTER</h3>
+  <span class="close"><i class="fa-regular fa-circle-xmark"></i></span>
+  </div>
+    <div class="row pt-2">
+        <div class="col-lg-6 loginborder">
+              <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary Loginbtn1" type="button" id="button-addon1"><i class="fa-regular fa-user"></i></button>
+                <input type="email" class="form-control Logininput" id="email" placeholder="E-mail Address" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary Loginbtn1" type="button" id="button-addon1"><i class="fa-solid fa-key"></i></button>
+                <input type="password" class="form-control Logininput" placeholder="password" id="password" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              </div>
+              <div class="loginsocial">
+              <h4>Login with your social account</h4>
+             <button style=" background-color: rgb(207, 12, 12); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-google"></i></a></button>
+             <button style="background-color: rgb(7, 24, 119); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+             <button style="background-color: rgb(4, 100, 189); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+             <button style="background-color: rgb(70, 72, 235); border: none; width: 30px; height: 30px;"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></button>
+            </div>
+            <div class="loginforgot">
+              <a href="#">Forgot Your Password?</a>
+            </div>
+            <div class="Loginbtn">
+              <button onclick="savedata()" id="savedate">LOGIN</button>
+            </div>
+        </div>
+        <div class="col-lg-6 loginreg">
+          <h3>NEW HERE?</h3>
+          <P>Registeration is free and easy!</P>
+          <ul>
+            <li>Faster checkout</li>
+            <li>Save multiple shipping addresses</li>
+            <li>View and track orders and more</li>
+          </ul>
+          <div class="Loginbtn">
+            <button style="width: 200PX;"><a href="register.html" style="text-decoration: none; color: white; ">CREATE AN ACCOUNT</a></button>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/shop.js">
+    </script>
+    
+</body>
+</html>
